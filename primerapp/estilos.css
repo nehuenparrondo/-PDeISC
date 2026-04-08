@@ -1,0 +1,51 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Diseño de la tabla */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50; /* Color verde para el encabezado */
+    color: white;
+}
+
+/* Filas intercaladas */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para simular la terminal de Node.js */
+.consola {
+    background: #222;
+    color: #0f0;
+    padding: 15px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
